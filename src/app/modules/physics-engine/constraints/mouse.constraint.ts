@@ -1,6 +1,6 @@
-import { Point } from 'src/app/core/models/point';
-import { BreakpointService } from 'src/app/core/services/breakpoint.service';
-import { MouseMoveService } from 'src/app/core/services/mouse.service';
+import { MouseMoveService } from './../../../core/services/mouse.service';
+import { BreakpointService } from './../../../core/services/breakpoint.service';
+import { Point } from './../../../core/models/point';
 import { VectorMath } from '../core/vector-math';
 import { Constraint } from '../models/constraint';
 import { SolidBody } from '../models/solid-body.model';

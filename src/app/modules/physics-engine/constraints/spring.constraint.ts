@@ -1,8 +1,8 @@
+import { Point } from './../../../core/models/point';
 import { Constraint } from '../models/constraint';
 import { SolidBody } from '../models/solid-body.model';
 import { Vector } from '../models/vector.model';
 import { VectorMath } from '../core/vector-math';
-import { Point } from 'src/app/core/models/point';
 export class SpringConstraint extends Constraint {
   constructor(pos: Point) {
     super(pos);

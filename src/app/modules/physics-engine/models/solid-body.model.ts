@@ -1,8 +1,8 @@
+import { Point } from './../../../core/models/point';
 import { Vector } from './vector.model';
 import { BoundRectangle, Size } from './size.model';
 import { Constraint } from './constraint';
 import { Transformations } from './transformations.model';
-import { Point } from 'src/app/core/models/point';
 
 export abstract class SolidBody {
   element: Element;

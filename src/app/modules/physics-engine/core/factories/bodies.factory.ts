@@ -1,3 +1,6 @@
+import { Point } from './../../../../core/models/point';
+import { BreakpointService } from './../../../../core/services/breakpoint.service';
+import { MouseMoveService } from './../../../../core/services/mouse.service';
 import { SolidBody } from '../../models/solid-body.model';
 import { Circle } from '../../models/circle.model';
 import { MouseConstraint } from '../../constraints/mouse.constraint';
@@ -5,9 +8,6 @@ import { SpringConstraint } from '../../constraints/spring.constraint';
 import { MouseDragConstrait } from '../../constraints/mouse-drag.constrait';
 import { MouseOverlayConstraint } from '../../constraints/mouse-overlay.constraint';
 import { Injectable } from '@angular/core';
-import { MouseMoveService } from 'src/app/core/services/mouse.service';
-import { Point } from 'src/app/core/models/point';
-import { BreakpointService } from 'src/app/core/services/breakpoint.service';
 
 @Injectable()
 export class BodiesFactory {

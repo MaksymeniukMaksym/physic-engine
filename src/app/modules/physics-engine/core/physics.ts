@@ -1,8 +1,8 @@
+import { Point } from './../../../core/models/point';
 import { VectorMath } from './vector-math';
 import { Vector } from '../models/vector.model';
 import { SolidBody } from '../models/solid-body.model';
 import { Injectable } from '@angular/core';
-import { Point } from 'src/app/core/models/point';
 
 @Injectable()
 export class Physics {

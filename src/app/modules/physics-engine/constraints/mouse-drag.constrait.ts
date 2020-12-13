@@ -1,10 +1,10 @@
+import { Point } from './../../../core/models/point';
+import { MouseMoveService } from './../../../core/services/mouse.service';
 import { VectorMath } from '../core/vector-math';
 import { Vector } from '../models/vector.model';
 import { Constraint } from '../models/constraint';
 import { Circle } from '../models/circle.model';
 import { SolidBody } from '../models/solid-body.model';
-import { MouseMoveService } from 'src/app/core/services/mouse.service';
-import { Point } from 'src/app/core/models/point';
 
 export class MouseDragConstrait extends Constraint {
   constructor(private mouseMoveService: MouseMoveService, allBodies: SolidBody[]) {

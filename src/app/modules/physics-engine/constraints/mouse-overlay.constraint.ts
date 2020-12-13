@@ -1,7 +1,7 @@
+import { Point } from './../../../core/models/point';
+import { MouseMoveService } from './../../../core/services/mouse.service';
 import { Constraint } from '../models/constraint';
 import { Circle } from '../models/circle.model';
-import { MouseMoveService } from 'src/app/core/services/mouse.service';
-import { Point } from 'src/app/core/models/point';
 
 export class MouseOverlayConstraint extends Constraint {
   constructor(private mouseMoveService: MouseMoveService) {

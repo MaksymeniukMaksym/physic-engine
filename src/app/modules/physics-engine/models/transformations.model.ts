@@ -1,4 +1,4 @@
-import { Point } from 'src/app/core/models/point';
+import { Point } from './../../../core/models/point';
 import { Vector } from './vector.model';
 export class Transformations {
   scale: number;

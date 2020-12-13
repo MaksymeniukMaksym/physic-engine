@@ -1,4 +1,4 @@
-import { Point } from 'src/app/core/models/point';
+import { Point } from './../../../core/models/point';
 import { SolidBody } from './solid-body.model';
 
 export abstract class Constraint {

@@ -1,8 +1,8 @@
+import { VectorMath } from './../../modules/physics-engine/core/vector-math';
 import { Observable, BehaviorSubject, fromEvent, Subscription } from 'rxjs';
 import { map, tap } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { Point } from '../models/point';
-import { VectorMath } from 'src/app/modules/physics-engine/core/vector-math';
 
 @Injectable()
 export class MouseMoveService {

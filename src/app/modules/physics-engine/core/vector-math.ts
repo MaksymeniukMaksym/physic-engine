@@ -1,4 +1,4 @@
-import { Point } from 'src/app/core/models/point';
+import { Point } from './../../../core/models/point';
 import { Vector } from '../models/vector.model';
 
 export class VectorMath {

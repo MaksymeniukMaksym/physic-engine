@@ -1,11 +1,12 @@
+import { Point } from '../../core/models/point';
+import { BodiesFactory } from './../../modules/physics-engine/core/factories/bodies.factory';
+import { Circle } from './../../modules/physics-engine/models/circle.model';
+import { BubbleWorld } from './../../modules/physics-engine/core/worlds/bubble.world';
+import { MouseMoveService } from './../../core/services/mouse.service';
+import { Renderer } from './../../modules/physics-engine/core/renderer';
 import { Component, ElementRef, Input, NgZone, OnInit } from '@angular/core';
 import { fromEvent, Subscription } from 'rxjs';
-import { Point } from 'src/app/core/models/point';
-import { MouseMoveService } from 'src/app/core/services/mouse.service';
-import { BodiesFactory } from 'src/app/modules/physics-engine/core/factories/bodies.factory';
-import { Renderer } from 'src/app/modules/physics-engine/core/renderer';
-import { BubbleWorld } from 'src/app/modules/physics-engine/core/worlds/bubble.world';
-import { Circle } from 'src/app/modules/physics-engine/models/circle.model';
+
 
 @Component({
   selector: 'app-world',
