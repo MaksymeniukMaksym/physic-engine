@@ -1,0 +1,252 @@
+{
+    "webLayout": {
+      "size": { "width": 1920, "height": 969 },
+      "center": { "x": 950, "y": 430 },
+      "first": [
+        {
+          "r": 125,
+          "xPos": 700,
+          "yPos": 530,
+          "icon": "/assets/icons/metrics/flag.svg",
+          "text": {
+            "main": "home.metrics.bubbles.projects.main",
+            "sub": "home.metrics.bubbles.projects.sub",
+            "inner": "home.metrics.bubbles.projects.inner"
+          }
+        },
+        {
+          "r": 140,
+          "xPos": 1360,
+          "yPos": 505,
+          "icon": "/assets/icons/metrics/bug.svg",
+
+          "text": {
+            "main": "home.metrics.bubbles.bugs.main",
+            "sub": "home.metrics.bubbles.bugs.sub",
+            "inner": "home.metrics.bubbles.bugs.inner"
+          }
+        },
+        {
+          "r": 110,
+          "xPos": 1270,
+          "yPos": 310,
+          "icon": "/assets/icons/metrics/male.svg",
+          "text": {
+            "main": "home.metrics.bubbles.team.main",
+            "sub": "home.metrics.bubbles.team.sub",
+            "inner": "home.metrics.bubbles.team.inner"
+          }
+        },
+        {
+          "r": 120,
+          "xPos": 1050,
+          "yPos": 190,
+          "icon": "/assets/icons/metrics/coffee.svg",
+          "text": {
+            "main": "home.metrics.bubbles.coffe.main",
+            "sub": "home.metrics.bubbles.coffe.sub",
+            "inner": "home.metrics.bubbles.coffe.inner"
+          }
+        },
+        {
+          "r": 160,
+          "xPos": 730,
+          "yPos": 210,
+          "icon": "/assets/icons/metrics/calendar.svg",
+          "text": {
+            "main": "home.metrics.bubbles.events.main",
+            "sub": "home.metrics.bubbles.events.sub",
+            "inner": "home.metrics.bubbles.events.inner"
+          }
+        },
+        {
+          "r": 170,
+          "xPos": 990,
+          "yPos": 440,
+          "icon": "/assets/icons/metrics/couch.svg",
+          "text": {
+            "main": "home.metrics.bubbles.comfort.main",
+            "sub": "home.metrics.bubbles.comfort.sub",
+            "inner": "home.metrics.bubbles.comfort.inner"
+          }
+        }
+      ],
+      "second": [
+        { "r": 75, "xPos": 1300, "yPos": 175 },
+        { "r": 50, "xPos": 1000, "yPos": 100 },
+        { "r": 50, "xPos": 640, "yPos": 330 },
+        { "r": 50, "xPos": 1100, "yPos": 850 },
+        { "r": 50, "xPos": 1650, "yPos": 500 },
+        { "r": 110, "xPos": 1290, "yPos": 690 },
+        { "r": 110, "xPos": 1515, "yPos": 290 },
+        { "r": 75, "xPos": 925, "yPos": 725 },
+        { "r": 75, "xPos": 675, "yPos": 425 }
+      ]
+    },
+    "tableLayout": {
+      "size": { "width": 850, "height": 800 },
+      "center": { "x": 350, "y": 200 },
+      "first": [
+        {
+          "r": 110,
+          "xPos": 100,
+          "yPos": 310,
+          "icon": "/assets/icons/metrics/flag.svg",
+          "text": {
+            "main": "home.metrics.bubbles.projects.main",
+            "sub": "home.metrics.bubbles.projects.sub",
+            "inner": "home.metrics.bubbles.projects.inner"
+          }
+        },
+        {
+          "r": 125,
+          "xPos": 350,
+          "yPos": 200,
+          "icon": "/assets/icons/metrics/calendar.svg",
+          "text": {
+            "main": "home.metrics.bubbles.events.main",
+            "sub": "home.metrics.bubbles.events.sub",
+            "inner": "home.metrics.bubbles.events.inner"
+          }
+        },
+        {
+          "r": 115,
+          "xPos": 500,
+          "yPos": 0,
+          "icon": "/assets/icons/metrics/male.svg",
+          "text": {
+            "main": "home.metrics.bubbles.team.main",
+            "sub": "home.metrics.bubbles.team.sub",
+            "inner": "home.metrics.bubbles.team.inner"
+          }
+        },
+        {
+          "r": 98,
+          "xPos": 300,
+          "yPos": 450,
+          "icon": "/assets/icons/metrics/coffee.svg",
+          "text": {
+            "main": "home.metrics.bubbles.coffe.main",
+            "sub": "home.metrics.bubbles.coffe.sub",
+            "inner": "home.metrics.bubbles.coffe.inner"
+          }
+        },
+        {
+          "r": 93,
+          "xPos": 550,
+          "yPos": 400,
+          "icon": "/assets/icons/metrics/bug.svg",
+          "text": {
+            "main": "home.metrics.bubbles.bugs.main",
+            "sub": "home.metrics.bubbles.bugs.sub",
+            "inner": "home.metrics.bubbles.bugs.inner"
+          }
+        },
+        {
+          "r": 100,
+          "xPos": 180,
+          "yPos": 100,
+          "icon": "/assets/icons/metrics/couch.svg",
+          "text": {
+            "main": "home.metrics.bubbles.comfort.main",
+            "sub": "home.metrics.bubbles.comfort.sub",
+            "inner": "home.metrics.bubbles.comfort.inner"
+          }
+        }
+      ],
+      "second": [
+        { "r": 75, "xPos": 600, "yPos": 225 },
+        { "r": 60, "xPos": 370, "yPos": 75 },
+        { "r": 55, "xPos": 70, "yPos": 210 },
+        { "r": 40, "xPos": 270, "yPos": 0 },
+        { "r": 40, "xPos": 200, "yPos": 550 },
+        { "r": 40, "xPos": 500, "yPos": 600 },
+        { "r": 35, "xPos": 100, "yPos": 50 },
+        { "r": 60, "xPos": 50, "yPos": 550 }
+      ]
+    },
+    "handsetLayout": {
+      "size": { "width": 375, "height": 600 },
+      "center": { "x": 120, "y": 220 },
+      "first": [
+        {
+          "r": 60,
+          "xPos": 180,
+          "yPos": 130,
+          "icon": "/assets/icons/metrics/flag.svg",
+          "text": {
+            "main": "home.metrics.bubbles.projects.main",
+            "sub": "home.metrics.bubbles.projects.sub",
+            "inner": "home.metrics.bubbles.projects.inner"
+          }
+        },
+        {
+          "r": 70,
+          "xPos": 110,
+          "yPos": 240,
+          "icon": "/assets/icons/metrics/calendar.svg",
+
+          "text": {
+            "main": "home.metrics.bubbles.events.main",
+            "sub": "home.metrics.bubbles.events.sub",
+            "inner": "home.metrics.bubbles.events.inner"
+          }
+        },
+        {
+          "r": 61,
+          "xPos": 250,
+          "yPos": 300,
+          "icon": "/assets/icons/metrics/male.svg",
+          "text": {
+            "main": "home.metrics.bubbles.team.main",
+            "sub": "home.metrics.bubbles.team.sub",
+            "inner": "home.metrics.bubbles.team.inner"
+          }
+        },
+        {
+          "r": 60,
+          "xPos": 40,
+          "yPos": 380,
+          "icon": "/assets/icons/metrics/coffee.svg",
+          "text": {
+            "main": "home.metrics.bubbles.coffe.main",
+            "sub": "home.metrics.bubbles.coffe.sub",
+            "inner": "home.metrics.bubbles.coffe.inner"
+          }
+        },
+        {
+          "r": 70,
+          "xPos": 170,
+          "yPos": 385,
+          "icon": "/assets/icons/metrics/bug.svg",
+          "text": {
+            "main": "home.metrics.bubbles.bugs.main",
+            "sub": "home.metrics.bubbles.bugs.sub",
+            "inner": "home.metrics.bubbles.bugs.inner"
+          }
+        },
+        {
+          "r": 60,
+          "xPos": 50,
+          "yPos": 130,
+          "icon": "/assets/icons/metrics/couch.svg",
+          "text": {
+            "main": "home.metrics.bubbles.comfort.main",
+            "sub": "home.metrics.bubbles.comfort.sub",
+            "inner": "home.metrics.bubbles.comfort.inner"
+          }
+        }
+      ],
+      "second": [
+        { "r": 55, "xPos": -10, "yPos": 250 },
+        { "r": 25, "xPos": 20, "yPos": 200 },
+        { "r": 25, "xPos": 20, "yPos": 350 },
+        { "r": 35, "xPos": 120, "yPos": 100 },
+        { "r": 60, "xPos": 270, "yPos": 175 },
+        { "r": 35, "xPos": 270, "yPos": 400 },
+        { "r": 20, "xPos": 170, "yPos": 450 },
+        { "r": 15, "xPos": -10, "yPos": 150 },
+        { "r": 15, "xPos": 270, "yPos": 120 }
+      ]
+    }
+  }

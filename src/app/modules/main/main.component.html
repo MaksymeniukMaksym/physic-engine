@@ -1,0 +1,31 @@
+<div class="wrapper">
+    <app-world id="bubbles-animation"
+    [centerX]=600 [centerY]=900 [xPos]=0
+    [yPos]=0 [boxWidth]=1920
+    [boxHeight]=969>
+    <div class="bubbles layout-second">
+        <ng-container *ngFor="let item of data.webLayout.second">
+            <div class="bubble" [attr.r]="item.r" [attr.xPos]="item.xPos" [attr.yPos]="item.yPos"></div>
+        </ng-container>
+    </div>
+    <div class="bubbles layout-first">
+        <ng-container *ngFor="let item of data.webLayout.first">
+            <div id="bubble" class=" bubble" [attr.r]="item.r" [attr.xPos]="item.xPos"
+                [attr.yPos]="item.yPos">
+                <div class="text">
+                    <div class="text-in-bubble">
+                        <div class="text-main"></div>
+                        <div class="text-sub"></div>
+                    </div>
+                    <div class="text-in-planet">
+                        <div class="icon">
+                         
+                        </div>
+                        <div class="text-inner-block">text</div>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+    </app-world>
+</div>
