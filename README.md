@@ -1,6 +1,7 @@
 # PhysicEngine
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
+Link to published demo:
+https://stackblitz.com/github/MaksymeniukMaksym/physic-engine
 
 ## Development server
 
